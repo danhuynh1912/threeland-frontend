@@ -3,9 +3,9 @@
 import { url } from 'inspector';
 import { ArrayBlogs } from '../const';
 
-import BlogItem from '@/components/blogs/blog-item';
+import BlogItem from '@/components/pages/blogs/blog-item';
 
-import TimeAndShare from '@/components/blogs/blog-item/timeAndShare';
+import TimeAndShare from '@/components/pages/blogs/blog-item/timeAndShare';
 import Link from 'next/link';
 
 const Index = () => {

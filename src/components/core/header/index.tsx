@@ -25,6 +25,11 @@ import PortfolioImage from '@/assets/images/about-tooltip/portfolio.jpeg';
 import WhyUsImage from '@/assets/images/about-tooltip/why-us.jpeg';
 import OurTeamImage from '@/assets/images/about-tooltip/our-team.jpeg';
 
+import HalongCruisesImage from '@/assets/images/extras-tooltip/halong-cruise.jpg';
+import MekongCruisesImage from '@/assets/images/extras-tooltip/mekong-cruise.jpg';
+import HotelBookingImage from '@/assets/images/extras-tooltip/hotel-booking.jpeg';
+import ExtraServiceImage from '@/assets/images/extras-tooltip/extra-service.jpeg';
+
 const Header = () => {
   return (
     <>
@@ -181,9 +186,78 @@ const Header = () => {
               </div>
               {/* End tour style popover */}
             </div>
-            <div role='button' className='flex gap-2 items-center'>
-              <p className='text-[16px]'>Extras</p>
-              <Image src={DownArrowBlackImage} alt='down-arrow' />
+            <div className='relative group h-full flex items-center'>
+              <div role='button' className='flex gap-2 items-center'>
+                <p className='text-[16px]'>Extras</p>
+                <Image src={DownArrowBlackImage} alt='down-arrow' />
+              </div>
+
+              {/* Extra popover */}
+              <div className='transition-all z-10 absolute w-[680px] top-[60px] translate-x-[-10rem] hidden group-hover:block bg-white p-4 border-t-[4px] border-t-[#0066B3]'>
+                <div role='button' className='group/about h-[120px]'>
+                  <Link
+                    href='/extras/halong-cruises'
+                    className='relative transition-all w-full h-full flex items-center justify-center overflow-hidden'
+                  >
+                    <Image src={HalongCruisesImage} alt='who-we-are' />
+                    <div className='flex items-center absolute top-0 left-0 bottom-0 right-0 group-hover/about:bg-black group-hover/about:bg-opacity-[0.3] transition-all'>
+                      <span className='transition-all mx-auto text-white font-semibold text-[18px] group-hover/about:underline'>
+                        Halong Bay Cruises
+                      </span>
+                    </div>
+                  </Link>
+                </div>
+                <div className='flex gap-2 justify-between mt-2'>
+                  <Link
+                    href='/extras/mekong-cruises'
+                    className='group/about relative h-[110px] flex-1'
+                  >
+                    <Image
+                      src={MekongCruisesImage}
+                      alt='about-image'
+                      className='w-full h-full object-cover'
+                    />
+                    <div className='group-hover/about:bg-black group-hover/about:bg-opacity-[0.3] transition-all absolute top-0 left-0 right-0 bottom-0 flex items-center'>
+                      <span className='group-hover/about:underline w-fit mx-[auto] transition-all text-white font-semibold text-[18px] group-hover/des:underline'>
+                        Mekong River Cruises
+                      </span>
+                    </div>
+                  </Link>
+
+                  <Link
+                    href='/extras/hotel-booking'
+                    className='group/about relative h-[110px] flex-1'
+                  >
+                    <Image
+                      src={HotelBookingImage}
+                      alt='about-image'
+                      className='w-full h-full object-cover'
+                    />
+                    <div className='group-hover/about:bg-black group-hover/about:bg-opacity-[0.3] transition-all absolute top-0 left-0 right-0 bottom-0 flex items-center'>
+                      <span className='group-hover/about:underline w-fit mx-[auto] transition-all text-white font-semibold text-[18px] group-hover/des:underline'>
+                        Hotel Booking
+                      </span>
+                    </div>
+                  </Link>
+
+                  <Link
+                    href='/extras/extra-service'
+                    className='relative group/about h-[110px] flex-1'
+                  >
+                    <Image
+                      src={ExtraServiceImage}
+                      alt='about-image'
+                      className='w-full h-full object-cover'
+                    />
+                    <div className='group-hover/about:bg-black group-hover/about:bg-opacity-[0.3] transition-all absolute top-0 left-0 right-0 bottom-0 flex items-center'>
+                      <span className='group-hover/about:underline w-fit mx-[auto] transition-all text-white font-semibold text-[18px] group-hover/des:underline'>
+                        Extra Service
+                      </span>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+              {/* End extra popover */}
             </div>
             <div role='button' className='flex gap-2 items-center'>
               <p className='text-[16px]'>Responsible</p>

@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 import post1 from '@/assets/images/blogs/post1.png';
 
-import BlogItem from '@/components/blogs/blog-item';
+import BlogItem from '@/components/pages/blogs/blog-item';
 import Link from 'next/link';
 
 const BlogList = () => {

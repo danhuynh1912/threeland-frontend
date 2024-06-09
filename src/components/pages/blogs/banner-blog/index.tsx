@@ -1,8 +1,8 @@
 'use client';
 import React, { useEffect, useRef, useState } from 'react';
 
-import TimeAndShare from '@/components/blogs/blog-item/timeAndShare';
-import AvatarInfo from '@/components/blogs/blog-item/AvatarInfo';
+import TimeAndShare from '@/components/pages/blogs/blog-item/timeAndShare';
+import AvatarInfo from '@/components/pages/blogs/blog-item/AvatarInfo';
 
 import Avatar from '@/assets/images/blogs/avt.png';
 

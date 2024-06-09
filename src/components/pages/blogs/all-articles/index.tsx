@@ -3,7 +3,7 @@ import { ArrayBlogs } from '../const';
 
 import ArrowDown from '@/assets/images/blogs/arrow_left_alt.svg';
 
-import BlogItem from '@/components/blogs/blog-item';
+import BlogItem from '@/components/pages/blogs/blog-item';
 
 const Index = () => {
   return (

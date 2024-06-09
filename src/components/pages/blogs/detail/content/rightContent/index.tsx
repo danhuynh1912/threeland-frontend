@@ -3,7 +3,7 @@ import Thread from '@/svg/threadSocial';
 import Twister from '@/svg/twisterSocial';
 import Gmail from '@/svg/gmailSvg';
 import BlogItem from './blog-item';
-import { ArrayBlogs } from '@/components/blogs/const';
+import { ArrayBlogs } from '@/components/pages/blogs/const';
 
 const Index = () => {
   return (

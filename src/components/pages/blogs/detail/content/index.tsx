@@ -1,6 +1,6 @@
-import LeftContent from '@/components/blogs/detail/content/leftContent';
-import RightContent from '@/components/blogs/detail/content/rightContent';
-import RelatedTour from '@/components/blogs/related-tour';
+import LeftContent from '@/components/pages/blogs/detail/content/leftContent';
+import RightContent from '@/components/pages/blogs/detail/content/rightContent';
+import RelatedTour from '@/components/pages/blogs/related-tour';
 import { useEffect, useRef, useState } from 'react';
 
 const Index = () => {

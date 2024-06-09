@@ -1,6 +1,6 @@
-"use client";
-import BannerBlog from "@/components/blogs/banner-blog";
-import Content from "@/components/blogs/detail/content";
+'use client';
+import BannerBlog from '@/components/pages/blogs/banner-blog';
+import Content from '@/components/pages/blogs/detail/content';
 
 const Index = () => {
   return (
