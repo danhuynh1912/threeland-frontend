@@ -8,12 +8,12 @@ import BlogItem from '@/components/pages/blogs/blog-item';
 import TimeAndShare from '@/components/pages/blogs/blog-item/timeAndShare';
 import Link from 'next/link';
 
-const Index = () => {
+const Index = ({ title = 'Most viewed articles' }: { title?: string }) => {
   return (
     <div className={`min-[1439px]:flex-row flex-col flex`}>
-      <div className='bg-[#0066B3] flex-1 px-[100px] pt-[50px]'>
-        <p className='text-[48px] font-bold text-[#FFF]'>
-          Most viewed articles
+      <div className='bg-[#0066B3] flex-1 pl-[100px] pr-[24px] 2xl:pr-[100px] pt-[50px]'>
+        <p className='text-[clamp(30px,3vw,48px)] 2xl:text-[48px] font-bold text-[#FFF]'>
+          {title}
         </p>
         {ArrayBlogs.map(
           (item, index) =>

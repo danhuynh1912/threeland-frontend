@@ -20,22 +20,12 @@ const ExtrasHighlight = () => {
   };
   return (
     <section className='relative min-[1320px]:max-h-[917px] overflow-hidden'>
-      {/* <Image
-        src={BackgroundImage}
-        alt='bg'
-        className='w-full hidden min-[1320px]:block'
-      /> */}
       <Image
         src={BackgroundImage}
         alt='bg'
         className='w-full block max-[1319px]:h-[414px]'
       />
       <div className='flex flex-col justify-between absolute top-0 left-0 right-0 min-[1320px]:inset-0 max-[1319px]:h-[414px] bg-black bg-opacity-[0.3] pt-[clamp(1rem,8vw,8rem)]'>
-        {/* <Image
-          src={BackgroundImage}
-          alt='bg'
-          className='absolute w-full block min-[1320px]:hidden'
-        /> */}
         <div className='px-[24px] sm:px-[50px] lg:px-[100px] max-w-[1910px] w-full mx-auto'>
           <p className='font-extralight mb-4 tracking-[5px] text-white'>
             HIGHLIGHTS
