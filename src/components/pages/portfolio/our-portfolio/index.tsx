@@ -2,7 +2,7 @@ import React from 'react';
 
 const OurPortfolio = () => {
   return (
-    <section className='bg-[rgba(0,102,179,1)] py-[clamp(2rem,6vw,7rem)] text-white'>
+    <section className='bg-[rgba(0,102,179,1)] pt-[2rem] pb-[clamp(2rem,6vw,7rem)] text-white'>
       <div className='max-w-[1910px] px-[24px] sm:px-[50px] xl:px-[100px] mx-auto'>
         <p className='font-extralight text-center'>WHO WE ARE</p>
         <h3 className='text-[clamp(26px,4vw,40px)] min-[1360px]:text-[48px] font-semibold text-center'>

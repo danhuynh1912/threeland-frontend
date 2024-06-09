@@ -1,14 +1,14 @@
 'use client';
 import React from 'react';
 
-import BlogList from '@/components/blogs/blog-list';
-import BannerBlog from '@/components/blogs/banner-blog';
-import Tag from '@/components/blogs/tag';
-import ViewedArticles from '@/components/blogs/viewed-articles';
-import Tour from '@/components/blogs/tour';
-import AllArticles from '@/components/blogs/all-articles';
-import Categories from '@/components/blogs/categories';
-import RelatedTour from '@/components/blogs/related-tour';
+import BlogList from '@/components/pages/blogs/blog-list';
+import BannerBlog from '@/components/pages/blogs/banner-blog';
+import Tag from '@/components/pages/blogs/tag';
+import ViewedArticles from '@/components/pages/blogs/viewed-articles';
+import Tour from '@/components/pages/blogs/tour';
+import AllArticles from '@/components/pages/blogs/all-articles';
+import Categories from '@/components/pages/blogs/categories';
+import RelatedTour from '@/components/pages/blogs/related-tour';
 
 const Page = () => {
   return (

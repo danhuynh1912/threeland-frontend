@@ -1,0 +1,3 @@
+.top-best-cruises .slick-slide:not(.slick-curent) {
+    margin-top: 2rem;
+}

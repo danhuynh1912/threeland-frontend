@@ -6,17 +6,6 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import Filter from '../recommend-tour/filter';
-import RecommendVietnam1 from '@/assets/images/recommend-vietnam-1.png';
-import RecommendVietnam2 from '@/assets/images/recommend-vietnam-2.png';
-import RecommendVietnam3 from '@/assets/images/recommend-vietnam-3.png';
-import RecommendVietnam4 from '@/assets/images/recommend-vietnam-4.png';
-
-import LocationHeImage from '@/assets/images/he-loc.svg';
-import ClockHeImage from '@/assets/images/he-clock.svg';
-import StarHeImage from '@/assets/images/he-star.svg';
-import PopularSaleImage from '@/assets/images/popular-sale.svg';
-import SeeMoreImage from '@/assets/images/see-more.svg';
 import RightSliderImage from '@/assets/images/right-slider.svg';
 import LeftSliderImage from '@/assets/images/left-slider.svg';
 import UserVoteImage from '@/assets/images/user-vote.svg';

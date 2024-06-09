@@ -3,7 +3,7 @@ import FAQ from '@/components/pages/who-we-are/faq';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Threeland Portfolio',
+  title: 'Threeland Who We Are',
   applicationName: 'Threeland Travel',
   description: 'This is description about the page',
   keywords: ['travel', 'Vietnam', 'tour', 'destination'],
