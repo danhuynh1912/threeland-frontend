@@ -7,18 +7,21 @@ import Ourteam4 from "@/assets/images/ourteam/ourteam4.jpg";
 import Ourteam5 from "@/assets/images/ourteam/ourteam5.jpg";
 import Ourteam6 from "@/assets/images/ourteam/ourteam6.jpg";
 import Ourteam7 from "@/assets/images/ourteam/ourteam7.jpg";
+import BannerOurteam from "@/assets/images/ourteam/BannerOurteam.png";
+
+const responsiveWithHeight = "2xl:w-[100%] 2xl:h-[100%] xl:w-[100%] xl:h-[100%] lg:w-[100%] lg:h-[100%] md:w-[70%] md:h-[70%] w-[30%] h-[30%]";
 
 const Index = () => {
   return (
-    <section className=" flex justify-center relative py-[clamp(2rem,6vw,2rem)] min-[900px]:mx-[400px] mx-[20px]">
-      <div className="">
+    <section className="flex justify-center relative py-[clamp(2rem,6vw,2rem)] 2xl:mx-[400px] xl:mx-[200px] lg:mx-[100px] md:mx-[50px] mx-[20px]">
+      {/* <div className="">
         <div className="flex">
           <div className="pt-20">
             <div>
-              <p className="font-semibold text-[48px] text-[#0066B3] text-end">
+              <p className="font-semibold 2xl:text-[48px] xl:text-[48px] lg:text-[36px] text-[18px] text-[#0066B3] text-end">
                 Our Team
               </p>
-              <p className="text-[89px] font-bold text-[#FD9C0B] text-end">
+              <p className="2xl:text-[89px] xl:text-[89px] lg:text-[66px] text-[33px] font-bold text-[#FD9C0B] text-end">
                 ThreeLand
               </p>
             </div>
@@ -26,12 +29,12 @@ const Index = () => {
               <Image
                 src={Ourteam1}
                 alt="who-we-are"
-                className="object-cover min-[900px]:w-[324px] w-[120px] h-[224px] self-end p-[2px] rounded-[16px]"
+                className={`object-cover max-w-[324px] max-h-[224px] ${responsiveWithHeight} self-end p-[2px] rounded-[16px]`}
               />
               <Image
                 src={Ourteam2}
                 alt="who-we-are"
-                className="object-cover w-[272px] h-[272px] p-[2px] rounded-[16px]"
+                className={`object-cover max-w-[272px] max-h-[272px] ${responsiveWithHeight} p-[2px] rounded-[16px]`}
               />
             </div>
           </div>
@@ -110,6 +113,13 @@ const Index = () => {
           </div>
         </div>
       </div>
+      
+      */}
+      <Image
+        src={BannerOurteam}
+        alt="who-we-are"
+        className="object-cover w-[1156px] h-[950px]"
+      />
 
     </section>
   );

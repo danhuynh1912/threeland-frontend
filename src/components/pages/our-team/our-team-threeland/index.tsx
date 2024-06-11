@@ -6,7 +6,7 @@ const Index = () => {
     >
       <div className="absolute h-[100%] bg-[#0066B3] opacity-80 bottom-0 left-0 right-0 top-0 z-0"></div>
       <div className="flex flex-col min-[900px]:flex-row py-10 min-[900px]:z-10 z-10">
-        <div className="block text-[32px] text-[#fff] sm:px-[70px] lg:px-[200px] py-5 z-10">
+        <div className="block text-[32px] text-[#fff] sm:px-[10px] lg:px-[200px] py-5 z-10">
           Who we are
         </div>
         <div className="flex-1 pr-[100px] z-10 min-[900px]:mr-[100px] mr-[5px]">
