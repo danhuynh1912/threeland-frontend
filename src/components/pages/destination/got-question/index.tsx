@@ -4,12 +4,12 @@ import Questions from './questions';
 const GotQuestion = () => {
   return (
     <section className='bg-[rgba(243,245,246,1)] py-[4rem]'>
-      <div className='flex items-center gap-[6rem] px-[100px] max-w-[1584px] mx-auto'>
-        <div>
+      <div className='flex flex-col-reverse min-[860px]:flex-row items-center gap-[clamp(1rem,6vw,6rem)] px-[24px] sm:px-[50px] lg:px-[100px] max-w-[1584px] mx-auto'>
+        <div className='min-[860px]:w-[35%] w-full'>
           <p className='text-[rgba(0,102,179,1)] font-extralight text-[18px]'>
             FAQ
           </p>
-          <h3 className='text-[44px] leading-[57.29px] font-semibold max-w-[466px] mt-2'>
+          <h3 className='text-[clamp(28px,4vw,44px)] xl:text-[44px] leading-[clamp(40px,4vw,57.29px)] font-semibold max-w-[466px] mt-2'>
             Got a question For company
           </h3>
           <input
